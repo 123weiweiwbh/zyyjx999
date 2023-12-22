@@ -1,0 +1,13 @@
+hasCJKLanguage = true
+summaryLength = 300
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+publishDir = "docs"
+theme = 'ananke'
+[markup]
+defaultMarkdownHandler = "goldmark"
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
